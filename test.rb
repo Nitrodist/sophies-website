@@ -1,7 +1,4 @@
-#require 'rainbow/refinement'
-#using Rainbow
-#
-#i = 3
+#require 'rainbow/refin
 #
 #puts i + 2
 #
@@ -30,5 +27,10 @@
 # follow some simple instructions.
 # -MC 2021-06-19 23:06:03 CDT
 puts ' what is your name'
-name    = gets
+name    = gets.chomp
 puts 'hello ' + name + '. how are you?'
+
+# -MC+SC 2021-07-09 01:14:29 CDT
+puts 'whats up? '
+whats_up    = gets.chomp
+puts "Oh, what's up is '#{whats_up}'? COOL! 🦄"
